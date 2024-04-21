@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: sans-serif;
+background: hsl(210,36%, 96%);
+color: hsl(209,61%,16%);
+line-height: 1.5;
+font-size: 0.875erem;
+}
+
+h2{
+  font-size: 2rem;
+
+}
+main {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 620px;
+}
+
+main section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 620px;
+}
+ section .title{
+  text-align: center;
+  margin-bottom: 4rem;
+ }
+  section .title .underline{
+    width: 6rem;
+    height: 0.25rem;
+    background: hsl(205,78%, 60%);
+    margin: 0 auto;
+  }
+
+  section .single-tour{
+    background: #fff;
+    margin: 2rem 0;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  }
+
+  section .single-tour img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+  }
+
+  section .single-tour footer{
+    padding:1.5rem 2rem;
+    transition : 0.5s all;
+  }
+
+  section .single-tour footer .tour-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  section .single-tour footer .tour-info .price{
+    letter-spacing: 2px;
+    font-size: 1rem;
+    background-color: hsl(205, 100%, 96%);
+    color: hsl(205, 78%, 60%);
+    padding: 5px;
+  }
+
+  section .single-tour footer p button{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: hsl(205, 78%, 60%);
+    font-size: 1rem;
+    cursor: pointer;
+
+  }
+
+  .btn-dlt{
+    margin: 1rem auto 0;
+    padding: 5px;
+    border: 1px solid #bb2525;
+    border-radius: 5px;
+    width: 200px;
+    background: transparent;
+    color:#bb2525;
+    cursor:pointer;
+    font-size: 1rem;
+    display: block;
+  }
+  .btn{
+    margin: 1rem auto 0;
+    padding: 5px;
+    border: 1px solid #01c3f3;
+    border-radius: 5px;
+    width: 200px;
+    background: hsl(205, 100%, 96%);
+    color: #01c3f3;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+  }
